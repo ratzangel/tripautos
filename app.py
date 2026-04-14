@@ -10,7 +10,7 @@ disp_button = st.button('Construir dispersión') # crear un botón dispersión
 
 if disp_button: # al hacer clic en el botón
     st.write('Creación de un gráfico de dispersión para el conjunto de datos de anuncios de venta de coches')
-    fig = px.scatter(car_data, x="year", y="price") # crear un gráfico de dispersión
+    fig = px.scatter(car_data, x="model_year", y="price") # crear un gráfico de dispersión
     st.plotly_chart(fig, use_container_width=True)  # mostrar un gráfico Plotly interactivo
 
 if hist_button: # al hacer clic en el botón
