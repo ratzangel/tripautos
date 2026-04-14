@@ -11,3 +11,6 @@ Esta aplicación web permite explorar y analizar un conjunto de datos de vehícu
 ## Cómo usar
 1. Ejecuta `streamlit run app.py`
 2. Abre tu navegador en localhost:8501
+
+## Enlace a mi aplicacion
+https://tripautos.onrender.com
